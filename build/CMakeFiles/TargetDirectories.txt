@@ -1,0 +1,11 @@
+C:/Users/JOEL/OneDrive/Documents/xi9d/projects/xi9d engine/build/CMakeFiles/paulinator.dir
+C:/Users/JOEL/OneDrive/Documents/xi9d/projects/xi9d engine/build/CMakeFiles/INSTALL.dir
+C:/Users/JOEL/OneDrive/Documents/xi9d/projects/xi9d engine/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/JOEL/OneDrive/Documents/xi9d/projects/xi9d engine/build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/JOEL/OneDrive/Documents/xi9d/projects/xi9d engine/build/glfw/CMakeFiles/uninstall.dir
+C:/Users/JOEL/OneDrive/Documents/xi9d/projects/xi9d engine/build/glfw/CMakeFiles/INSTALL.dir
+C:/Users/JOEL/OneDrive/Documents/xi9d/projects/xi9d engine/build/glfw/CMakeFiles/ALL_BUILD.dir
+C:/Users/JOEL/OneDrive/Documents/xi9d/projects/xi9d engine/build/glfw/src/CMakeFiles/glfw.dir
+C:/Users/JOEL/OneDrive/Documents/xi9d/projects/xi9d engine/build/glfw/src/CMakeFiles/update_mappings.dir
+C:/Users/JOEL/OneDrive/Documents/xi9d/projects/xi9d engine/build/glfw/src/CMakeFiles/INSTALL.dir
+C:/Users/JOEL/OneDrive/Documents/xi9d/projects/xi9d engine/build/glfw/docs/CMakeFiles/INSTALL.dir

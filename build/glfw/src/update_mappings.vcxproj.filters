@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine\build\CMakeFiles\27122843579b91b296a3a67f49486a85\update_mappings.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine\glfw\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine\glfw\src\mappings.h.in">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine\glfw\CMake\GenerateMappings.cmake" />
+    <None Include="C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine\build\glfw\src\CMakeFiles\update_mappings" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{6DB5416B-11A2-35D7-9178-F46DC5366695}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{BDA3B9F1-3659-3F6A-8D99-312EBF240F72}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
