@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/JOEL/OneDrive/Documents/xi9d/projects/xi9d engine/main.cpp" "CMakeFiles/paulinator.dir/main.cpp.obj" "gcc" "CMakeFiles/paulinator.dir/main.cpp.obj.d"
+  "C:/Users/JOEL/OneDrive/Documents/xi9d/projects/xi9d engine/src/main.cpp" "CMakeFiles/paulinator.dir/src/main.cpp.obj" "gcc" "CMakeFiles/paulinator.dir/src/main.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

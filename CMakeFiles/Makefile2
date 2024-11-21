@@ -63,99 +63,123 @@ CMAKE_BINARY_DIR = "C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine"
 
 # The main recursive "all" target.
 all: CMakeFiles/paulinator.dir/all
-all: glfw/all
+all: lib/glfw/all
+all: lib/glad/all
 .PHONY : all
 
 # The main recursive "codegen" target.
 codegen: CMakeFiles/paulinator.dir/codegen
-codegen: glfw/codegen
+codegen: lib/glfw/codegen
+codegen: lib/glad/codegen
 .PHONY : codegen
 
 # The main recursive "preinstall" target.
-preinstall: glfw/preinstall
+preinstall: lib/glfw/preinstall
+preinstall: lib/glad/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
 clean: CMakeFiles/paulinator.dir/clean
-clean: glfw/clean
+clean: lib/glfw/clean
+clean: lib/glad/clean
 .PHONY : clean
 
 #=============================================================================
-# Directory level rules for directory glfw
+# Directory level rules for directory lib/glad
 
 # Recursive "all" directory target.
-glfw/all: glfw/src/all
-glfw/all: glfw/docs/all
-.PHONY : glfw/all
+lib/glad/all: lib/glad/CMakeFiles/glad.dir/all
+.PHONY : lib/glad/all
 
 # Recursive "codegen" directory target.
-glfw/codegen: glfw/src/codegen
-glfw/codegen: glfw/docs/codegen
-.PHONY : glfw/codegen
+lib/glad/codegen: lib/glad/CMakeFiles/glad.dir/codegen
+.PHONY : lib/glad/codegen
 
 # Recursive "preinstall" directory target.
-glfw/preinstall: glfw/src/preinstall
-glfw/preinstall: glfw/docs/preinstall
-.PHONY : glfw/preinstall
+lib/glad/preinstall:
+.PHONY : lib/glad/preinstall
 
 # Recursive "clean" directory target.
-glfw/clean: glfw/CMakeFiles/uninstall.dir/clean
-glfw/clean: glfw/src/clean
-glfw/clean: glfw/docs/clean
-.PHONY : glfw/clean
+lib/glad/clean: lib/glad/CMakeFiles/glad.dir/clean
+.PHONY : lib/glad/clean
 
 #=============================================================================
-# Directory level rules for directory glfw/docs
+# Directory level rules for directory lib/glfw
 
 # Recursive "all" directory target.
-glfw/docs/all:
-.PHONY : glfw/docs/all
+lib/glfw/all: lib/glfw/src/all
+lib/glfw/all: lib/glfw/docs/all
+.PHONY : lib/glfw/all
 
 # Recursive "codegen" directory target.
-glfw/docs/codegen:
-.PHONY : glfw/docs/codegen
+lib/glfw/codegen: lib/glfw/src/codegen
+lib/glfw/codegen: lib/glfw/docs/codegen
+.PHONY : lib/glfw/codegen
 
 # Recursive "preinstall" directory target.
-glfw/docs/preinstall:
-.PHONY : glfw/docs/preinstall
+lib/glfw/preinstall: lib/glfw/src/preinstall
+lib/glfw/preinstall: lib/glfw/docs/preinstall
+.PHONY : lib/glfw/preinstall
 
 # Recursive "clean" directory target.
-glfw/docs/clean:
-.PHONY : glfw/docs/clean
+lib/glfw/clean: lib/glfw/CMakeFiles/uninstall.dir/clean
+lib/glfw/clean: lib/glfw/src/clean
+lib/glfw/clean: lib/glfw/docs/clean
+.PHONY : lib/glfw/clean
 
 #=============================================================================
-# Directory level rules for directory glfw/src
+# Directory level rules for directory lib/glfw/docs
 
 # Recursive "all" directory target.
-glfw/src/all: glfw/src/CMakeFiles/glfw.dir/all
-.PHONY : glfw/src/all
+lib/glfw/docs/all:
+.PHONY : lib/glfw/docs/all
 
 # Recursive "codegen" directory target.
-glfw/src/codegen: glfw/src/CMakeFiles/glfw.dir/codegen
-.PHONY : glfw/src/codegen
+lib/glfw/docs/codegen:
+.PHONY : lib/glfw/docs/codegen
 
 # Recursive "preinstall" directory target.
-glfw/src/preinstall:
-.PHONY : glfw/src/preinstall
+lib/glfw/docs/preinstall:
+.PHONY : lib/glfw/docs/preinstall
 
 # Recursive "clean" directory target.
-glfw/src/clean: glfw/src/CMakeFiles/glfw.dir/clean
-glfw/src/clean: glfw/src/CMakeFiles/update_mappings.dir/clean
-.PHONY : glfw/src/clean
+lib/glfw/docs/clean:
+.PHONY : lib/glfw/docs/clean
+
+#=============================================================================
+# Directory level rules for directory lib/glfw/src
+
+# Recursive "all" directory target.
+lib/glfw/src/all: lib/glfw/src/CMakeFiles/glfw.dir/all
+.PHONY : lib/glfw/src/all
+
+# Recursive "codegen" directory target.
+lib/glfw/src/codegen: lib/glfw/src/CMakeFiles/glfw.dir/codegen
+.PHONY : lib/glfw/src/codegen
+
+# Recursive "preinstall" directory target.
+lib/glfw/src/preinstall:
+.PHONY : lib/glfw/src/preinstall
+
+# Recursive "clean" directory target.
+lib/glfw/src/clean: lib/glfw/src/CMakeFiles/glfw.dir/clean
+lib/glfw/src/clean: lib/glfw/src/CMakeFiles/update_mappings.dir/clean
+.PHONY : lib/glfw/src/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/paulinator.dir
 
 # All Build rule for target.
-CMakeFiles/paulinator.dir/all: glfw/src/CMakeFiles/glfw.dir/all
+CMakeFiles/paulinator.dir/all: lib/glfw/src/CMakeFiles/glfw.dir/all
+CMakeFiles/paulinator.dir/all: lib/glad/CMakeFiles/glad.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\paulinator.dir\build.make CMakeFiles/paulinator.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\paulinator.dir\build.make CMakeFiles/paulinator.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine\CMakeFiles" --progress-num=23,24 "Built target paulinator"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine\CMakeFiles" --progress-num=25,26 "Built target paulinator"
 .PHONY : CMakeFiles/paulinator.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/paulinator.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine\CMakeFiles" 24
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine\CMakeFiles" 26
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/paulinator.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine\CMakeFiles" 0
 .PHONY : CMakeFiles/paulinator.dir/rule
@@ -175,97 +199,128 @@ CMakeFiles/paulinator.dir/clean:
 .PHONY : CMakeFiles/paulinator.dir/clean
 
 #=============================================================================
-# Target rules for target glfw/CMakeFiles/uninstall.dir
+# Target rules for target lib/glfw/CMakeFiles/uninstall.dir
 
 # All Build rule for target.
-glfw/CMakeFiles/uninstall.dir/all:
-	$(MAKE) $(MAKESILENT) -f glfw\CMakeFiles\uninstall.dir\build.make glfw/CMakeFiles/uninstall.dir/depend
-	$(MAKE) $(MAKESILENT) -f glfw\CMakeFiles\uninstall.dir\build.make glfw/CMakeFiles/uninstall.dir/build
+lib/glfw/CMakeFiles/uninstall.dir/all:
+	$(MAKE) $(MAKESILENT) -f lib\glfw\CMakeFiles\uninstall.dir\build.make lib/glfw/CMakeFiles/uninstall.dir/depend
+	$(MAKE) $(MAKESILENT) -f lib\glfw\CMakeFiles\uninstall.dir\build.make lib/glfw/CMakeFiles/uninstall.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine\CMakeFiles" --progress-num= "Built target uninstall"
-.PHONY : glfw/CMakeFiles/uninstall.dir/all
+.PHONY : lib/glfw/CMakeFiles/uninstall.dir/all
 
 # Build rule for subdir invocation for target.
-glfw/CMakeFiles/uninstall.dir/rule: cmake_check_build_system
+lib/glfw/CMakeFiles/uninstall.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine\CMakeFiles" 0
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 glfw/CMakeFiles/uninstall.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lib/glfw/CMakeFiles/uninstall.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine\CMakeFiles" 0
-.PHONY : glfw/CMakeFiles/uninstall.dir/rule
+.PHONY : lib/glfw/CMakeFiles/uninstall.dir/rule
 
 # Convenience name for target.
-uninstall: glfw/CMakeFiles/uninstall.dir/rule
+uninstall: lib/glfw/CMakeFiles/uninstall.dir/rule
 .PHONY : uninstall
 
 # codegen rule for target.
-glfw/CMakeFiles/uninstall.dir/codegen:
-	$(MAKE) $(MAKESILENT) -f glfw\CMakeFiles\uninstall.dir\build.make glfw/CMakeFiles/uninstall.dir/codegen
-.PHONY : glfw/CMakeFiles/uninstall.dir/codegen
+lib/glfw/CMakeFiles/uninstall.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f lib\glfw\CMakeFiles\uninstall.dir\build.make lib/glfw/CMakeFiles/uninstall.dir/codegen
+.PHONY : lib/glfw/CMakeFiles/uninstall.dir/codegen
 
 # clean rule for target.
-glfw/CMakeFiles/uninstall.dir/clean:
-	$(MAKE) $(MAKESILENT) -f glfw\CMakeFiles\uninstall.dir\build.make glfw/CMakeFiles/uninstall.dir/clean
-.PHONY : glfw/CMakeFiles/uninstall.dir/clean
+lib/glfw/CMakeFiles/uninstall.dir/clean:
+	$(MAKE) $(MAKESILENT) -f lib\glfw\CMakeFiles\uninstall.dir\build.make lib/glfw/CMakeFiles/uninstall.dir/clean
+.PHONY : lib/glfw/CMakeFiles/uninstall.dir/clean
 
 #=============================================================================
-# Target rules for target glfw/src/CMakeFiles/glfw.dir
+# Target rules for target lib/glfw/src/CMakeFiles/glfw.dir
 
 # All Build rule for target.
-glfw/src/CMakeFiles/glfw.dir/all:
-	$(MAKE) $(MAKESILENT) -f glfw\src\CMakeFiles\glfw.dir\build.make glfw/src/CMakeFiles/glfw.dir/depend
-	$(MAKE) $(MAKESILENT) -f glfw\src\CMakeFiles\glfw.dir\build.make glfw/src/CMakeFiles/glfw.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine\CMakeFiles" --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22 "Built target glfw"
-.PHONY : glfw/src/CMakeFiles/glfw.dir/all
+lib/glfw/src/CMakeFiles/glfw.dir/all:
+	$(MAKE) $(MAKESILENT) -f lib\glfw\src\CMakeFiles\glfw.dir\build.make lib/glfw/src/CMakeFiles/glfw.dir/depend
+	$(MAKE) $(MAKESILENT) -f lib\glfw\src\CMakeFiles\glfw.dir\build.make lib/glfw/src/CMakeFiles/glfw.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine\CMakeFiles" --progress-num=3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24 "Built target glfw"
+.PHONY : lib/glfw/src/CMakeFiles/glfw.dir/all
 
 # Build rule for subdir invocation for target.
-glfw/src/CMakeFiles/glfw.dir/rule: cmake_check_build_system
+lib/glfw/src/CMakeFiles/glfw.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine\CMakeFiles" 22
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 glfw/src/CMakeFiles/glfw.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lib/glfw/src/CMakeFiles/glfw.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine\CMakeFiles" 0
-.PHONY : glfw/src/CMakeFiles/glfw.dir/rule
+.PHONY : lib/glfw/src/CMakeFiles/glfw.dir/rule
 
 # Convenience name for target.
-glfw: glfw/src/CMakeFiles/glfw.dir/rule
+glfw: lib/glfw/src/CMakeFiles/glfw.dir/rule
 .PHONY : glfw
 
 # codegen rule for target.
-glfw/src/CMakeFiles/glfw.dir/codegen:
-	$(MAKE) $(MAKESILENT) -f glfw\src\CMakeFiles\glfw.dir\build.make glfw/src/CMakeFiles/glfw.dir/codegen
-.PHONY : glfw/src/CMakeFiles/glfw.dir/codegen
+lib/glfw/src/CMakeFiles/glfw.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f lib\glfw\src\CMakeFiles\glfw.dir\build.make lib/glfw/src/CMakeFiles/glfw.dir/codegen
+.PHONY : lib/glfw/src/CMakeFiles/glfw.dir/codegen
 
 # clean rule for target.
-glfw/src/CMakeFiles/glfw.dir/clean:
-	$(MAKE) $(MAKESILENT) -f glfw\src\CMakeFiles\glfw.dir\build.make glfw/src/CMakeFiles/glfw.dir/clean
-.PHONY : glfw/src/CMakeFiles/glfw.dir/clean
+lib/glfw/src/CMakeFiles/glfw.dir/clean:
+	$(MAKE) $(MAKESILENT) -f lib\glfw\src\CMakeFiles\glfw.dir\build.make lib/glfw/src/CMakeFiles/glfw.dir/clean
+.PHONY : lib/glfw/src/CMakeFiles/glfw.dir/clean
 
 #=============================================================================
-# Target rules for target glfw/src/CMakeFiles/update_mappings.dir
+# Target rules for target lib/glfw/src/CMakeFiles/update_mappings.dir
 
 # All Build rule for target.
-glfw/src/CMakeFiles/update_mappings.dir/all:
-	$(MAKE) $(MAKESILENT) -f glfw\src\CMakeFiles\update_mappings.dir\build.make glfw/src/CMakeFiles/update_mappings.dir/depend
-	$(MAKE) $(MAKESILENT) -f glfw\src\CMakeFiles\update_mappings.dir\build.make glfw/src/CMakeFiles/update_mappings.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine\CMakeFiles" --progress-num=25 "Built target update_mappings"
-.PHONY : glfw/src/CMakeFiles/update_mappings.dir/all
+lib/glfw/src/CMakeFiles/update_mappings.dir/all:
+	$(MAKE) $(MAKESILENT) -f lib\glfw\src\CMakeFiles\update_mappings.dir\build.make lib/glfw/src/CMakeFiles/update_mappings.dir/depend
+	$(MAKE) $(MAKESILENT) -f lib\glfw\src\CMakeFiles\update_mappings.dir\build.make lib/glfw/src/CMakeFiles/update_mappings.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine\CMakeFiles" --progress-num=27 "Built target update_mappings"
+.PHONY : lib/glfw/src/CMakeFiles/update_mappings.dir/all
 
 # Build rule for subdir invocation for target.
-glfw/src/CMakeFiles/update_mappings.dir/rule: cmake_check_build_system
+lib/glfw/src/CMakeFiles/update_mappings.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine\CMakeFiles" 1
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 glfw/src/CMakeFiles/update_mappings.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lib/glfw/src/CMakeFiles/update_mappings.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine\CMakeFiles" 0
-.PHONY : glfw/src/CMakeFiles/update_mappings.dir/rule
+.PHONY : lib/glfw/src/CMakeFiles/update_mappings.dir/rule
 
 # Convenience name for target.
-update_mappings: glfw/src/CMakeFiles/update_mappings.dir/rule
+update_mappings: lib/glfw/src/CMakeFiles/update_mappings.dir/rule
 .PHONY : update_mappings
 
 # codegen rule for target.
-glfw/src/CMakeFiles/update_mappings.dir/codegen:
-	$(MAKE) $(MAKESILENT) -f glfw\src\CMakeFiles\update_mappings.dir\build.make glfw/src/CMakeFiles/update_mappings.dir/codegen
-.PHONY : glfw/src/CMakeFiles/update_mappings.dir/codegen
+lib/glfw/src/CMakeFiles/update_mappings.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f lib\glfw\src\CMakeFiles\update_mappings.dir\build.make lib/glfw/src/CMakeFiles/update_mappings.dir/codegen
+.PHONY : lib/glfw/src/CMakeFiles/update_mappings.dir/codegen
 
 # clean rule for target.
-glfw/src/CMakeFiles/update_mappings.dir/clean:
-	$(MAKE) $(MAKESILENT) -f glfw\src\CMakeFiles\update_mappings.dir\build.make glfw/src/CMakeFiles/update_mappings.dir/clean
-.PHONY : glfw/src/CMakeFiles/update_mappings.dir/clean
+lib/glfw/src/CMakeFiles/update_mappings.dir/clean:
+	$(MAKE) $(MAKESILENT) -f lib\glfw\src\CMakeFiles\update_mappings.dir\build.make lib/glfw/src/CMakeFiles/update_mappings.dir/clean
+.PHONY : lib/glfw/src/CMakeFiles/update_mappings.dir/clean
+
+#=============================================================================
+# Target rules for target lib/glad/CMakeFiles/glad.dir
+
+# All Build rule for target.
+lib/glad/CMakeFiles/glad.dir/all:
+	$(MAKE) $(MAKESILENT) -f lib\glad\CMakeFiles\glad.dir\build.make lib/glad/CMakeFiles/glad.dir/depend
+	$(MAKE) $(MAKESILENT) -f lib\glad\CMakeFiles\glad.dir\build.make lib/glad/CMakeFiles/glad.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine\CMakeFiles" --progress-num=1,2 "Built target glad"
+.PHONY : lib/glad/CMakeFiles/glad.dir/all
+
+# Build rule for subdir invocation for target.
+lib/glad/CMakeFiles/glad.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine\CMakeFiles" 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lib/glad/CMakeFiles/glad.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine\CMakeFiles" 0
+.PHONY : lib/glad/CMakeFiles/glad.dir/rule
+
+# Convenience name for target.
+glad: lib/glad/CMakeFiles/glad.dir/rule
+.PHONY : glad
+
+# codegen rule for target.
+lib/glad/CMakeFiles/glad.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f lib\glad\CMakeFiles\glad.dir\build.make lib/glad/CMakeFiles/glad.dir/codegen
+.PHONY : lib/glad/CMakeFiles/glad.dir/codegen
+
+# clean rule for target.
+lib/glad/CMakeFiles/glad.dir/clean:
+	$(MAKE) $(MAKESILENT) -f lib\glad\CMakeFiles\glad.dir\build.make lib/glad/CMakeFiles/glad.dir/clean
+.PHONY : lib/glad/CMakeFiles/glad.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

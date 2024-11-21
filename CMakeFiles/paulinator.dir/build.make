@@ -71,31 +71,32 @@ include CMakeFiles/paulinator.dir/flags.make
 CMakeFiles/paulinator.dir/codegen:
 .PHONY : CMakeFiles/paulinator.dir/codegen
 
-CMakeFiles/paulinator.dir/main.cpp.obj: CMakeFiles/paulinator.dir/flags.make
-CMakeFiles/paulinator.dir/main.cpp.obj: CMakeFiles/paulinator.dir/includes_CXX.rsp
-CMakeFiles/paulinator.dir/main.cpp.obj: main.cpp
-CMakeFiles/paulinator.dir/main.cpp.obj: CMakeFiles/paulinator.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/paulinator.dir/main.cpp.obj"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/paulinator.dir/main.cpp.obj -MF CMakeFiles\paulinator.dir\main.cpp.obj.d -o CMakeFiles\paulinator.dir\main.cpp.obj -c "C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine\main.cpp"
+CMakeFiles/paulinator.dir/src/main.cpp.obj: CMakeFiles/paulinator.dir/flags.make
+CMakeFiles/paulinator.dir/src/main.cpp.obj: CMakeFiles/paulinator.dir/includes_CXX.rsp
+CMakeFiles/paulinator.dir/src/main.cpp.obj: src/main.cpp
+CMakeFiles/paulinator.dir/src/main.cpp.obj: CMakeFiles/paulinator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/paulinator.dir/src/main.cpp.obj"
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/paulinator.dir/src/main.cpp.obj -MF CMakeFiles\paulinator.dir\src\main.cpp.obj.d -o CMakeFiles\paulinator.dir\src\main.cpp.obj -c "C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine\src\main.cpp"
 
-CMakeFiles/paulinator.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/paulinator.dir/main.cpp.i"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine\main.cpp" > CMakeFiles\paulinator.dir\main.cpp.i
+CMakeFiles/paulinator.dir/src/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/paulinator.dir/src/main.cpp.i"
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine\src\main.cpp" > CMakeFiles\paulinator.dir\src\main.cpp.i
 
-CMakeFiles/paulinator.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/paulinator.dir/main.cpp.s"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine\main.cpp" -o CMakeFiles\paulinator.dir\main.cpp.s
+CMakeFiles/paulinator.dir/src/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/paulinator.dir/src/main.cpp.s"
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine\src\main.cpp" -o CMakeFiles\paulinator.dir\src\main.cpp.s
 
 # Object files for target paulinator
 paulinator_OBJECTS = \
-"CMakeFiles/paulinator.dir/main.cpp.obj"
+"CMakeFiles/paulinator.dir/src/main.cpp.obj"
 
 # External object files for target paulinator
 paulinator_EXTERNAL_OBJECTS =
 
-paulinator.exe: CMakeFiles/paulinator.dir/main.cpp.obj
+paulinator.exe: CMakeFiles/paulinator.dir/src/main.cpp.obj
 paulinator.exe: CMakeFiles/paulinator.dir/build.make
-paulinator.exe: glfw/src/libglfw3.a
+paulinator.exe: lib/glfw/src/libglfw3.a
+paulinator.exe: lib/glad/libglad.a
 paulinator.exe: CMakeFiles/paulinator.dir/linkLibs.rsp
 paulinator.exe: CMakeFiles/paulinator.dir/objects1.rsp
 paulinator.exe: CMakeFiles/paulinator.dir/link.txt

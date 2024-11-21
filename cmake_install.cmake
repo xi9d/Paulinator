@@ -39,7 +39,12 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/JOEL/OneDrive/Documents/xi9d/projects/xi9d engine/glfw/cmake_install.cmake")
+  include("C:/Users/JOEL/OneDrive/Documents/xi9d/projects/xi9d engine/lib/glfw/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/JOEL/OneDrive/Documents/xi9d/projects/xi9d engine/lib/glad/cmake_install.cmake")
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT

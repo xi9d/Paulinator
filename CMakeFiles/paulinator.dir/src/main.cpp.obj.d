@@ -135,4 +135,11 @@ CMakeFiles/paulinator.dir/src/main.cpp.obj: \
  C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_ios.tcc \
  C:/msys64/ucrt64/include/c++/14.2.0/bits/ostream.tcc \
  C:/msys64/ucrt64/include/c++/14.2.0/istream \
- C:/msys64/ucrt64/include/c++/14.2.0/bits/istream.tcc
+ C:/msys64/ucrt64/include/c++/14.2.0/bits/istream.tcc \
+ C:/Users/JOEL/OneDrive/DOCUME~1/xi9d/projects/XI9DEN~1/lib/glad/include/glad/glad.h \
+ C:/Users/JOEL/OneDrive/DOCUME~1/xi9d/projects/XI9DEN~1/lib/glad/include/KHR/khrplatform.h \
+ C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stdint.h \
+ C:/msys64/ucrt64/include/stdint.h \
+ C:/Users/JOEL/OneDrive/DOCUME~1/xi9d/projects/XI9DEN~1/lib/glfw/include/GLFW/glfw3.h \
+ C:/msys64/ucrt64/include/c++/14.2.0/sstream \
+ C:/msys64/ucrt64/include/c++/14.2.0/bits/sstream.tcc

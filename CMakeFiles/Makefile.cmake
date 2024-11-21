@@ -57,12 +57,13 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.31.0/CMakeRCCompiler.cmake"
   "CMakeFiles/3.31.0/CMakeSystem.cmake"
   "CMakeLists.txt"
-  "glfw/CMake/cmake_uninstall.cmake.in"
-  "glfw/CMake/glfw3.pc.in"
-  "glfw/CMake/glfw3Config.cmake.in"
-  "glfw/CMakeLists.txt"
-  "glfw/docs/CMakeLists.txt"
-  "glfw/src/CMakeLists.txt"
+  "lib/glad/CMakeLists.txt"
+  "lib/glfw/CMake/cmake_uninstall.cmake.in"
+  "lib/glfw/CMake/glfw3.pc.in"
+  "lib/glfw/CMake/glfw3Config.cmake.in"
+  "lib/glfw/CMakeLists.txt"
+  "lib/glfw/docs/CMakeLists.txt"
+  "lib/glfw/src/CMakeLists.txt"
   )
 
 # The corresponding makefile is:
@@ -74,19 +75,21 @@ set(CMAKE_MAKEFILE_OUTPUTS
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
-  "glfw/src/glfw3Config.cmake"
-  "glfw/src/glfw3ConfigVersion.cmake"
-  "glfw/cmake_uninstall.cmake"
-  "glfw/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "glfw/src/glfw3.pc"
-  "glfw/src/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "glfw/docs/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "lib/glfw/src/glfw3Config.cmake"
+  "lib/glfw/src/glfw3ConfigVersion.cmake"
+  "lib/glfw/cmake_uninstall.cmake"
+  "lib/glfw/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "lib/glfw/src/glfw3.pc"
+  "lib/glfw/src/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "lib/glfw/docs/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "lib/glad/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/paulinator.dir/DependInfo.cmake"
-  "glfw/CMakeFiles/uninstall.dir/DependInfo.cmake"
-  "glfw/src/CMakeFiles/glfw.dir/DependInfo.cmake"
-  "glfw/src/CMakeFiles/update_mappings.dir/DependInfo.cmake"
+  "lib/glfw/CMakeFiles/uninstall.dir/DependInfo.cmake"
+  "lib/glfw/src/CMakeFiles/glfw.dir/DependInfo.cmake"
+  "lib/glfw/src/CMakeFiles/update_mappings.dir/DependInfo.cmake"
+  "lib/glad/CMakeFiles/glad.dir/DependInfo.cmake"
   )

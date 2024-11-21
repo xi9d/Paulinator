@@ -174,7 +174,11 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine\build\glfw\src\glfw.vcxproj">
+    <ProjectReference Include="C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine\build\lib\glad\glad.vcxproj">
+      <Project>{74F09D40-C326-3C0C-84AE-A44D9D3298F4}</Project>
+      <Name>glad</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine\build\lib\glfw\src\glfw.vcxproj">
       <Project>{944C932C-0CC8-3269-A31E-4F868220C615}</Project>
       <Name>glfw</Name>
     </ProjectReference>
