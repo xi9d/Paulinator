@@ -1,9 +1,9 @@
 
-if (NOT EXISTS "C:/Users/JOEL/OneDrive/Documents/xi9d/projects/xi9d engine/build/lib/glfw/install_manifest.txt")
-    message(FATAL_ERROR "Cannot find install manifest: \"C:/Users/JOEL/OneDrive/Documents/xi9d/projects/xi9d engine/build/lib/glfw/install_manifest.txt\"")
+if (NOT EXISTS "C:/Users/Administrator/Documents/Projects/Paulinator/build/lib/glfw/install_manifest.txt")
+    message(FATAL_ERROR "Cannot find install manifest: \"C:/Users/Administrator/Documents/Projects/Paulinator/build/lib/glfw/install_manifest.txt\"")
 endif()
 
-file(READ "C:/Users/JOEL/OneDrive/Documents/xi9d/projects/xi9d engine/build/lib/glfw/install_manifest.txt" files)
+file(READ "C:/Users/Administrator/Documents/Projects/Paulinator/build/lib/glfw/install_manifest.txt" files)
 string(REGEX REPLACE "\n" ";" files "${files}")
 
 foreach (file ${files})

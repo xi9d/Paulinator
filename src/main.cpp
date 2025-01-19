@@ -2,7 +2,6 @@
 #include <glad/glad.h>  // for OpenGL graphics API
 #include <GLFW/glfw3.h> // for GLFW window handling
 #include <sstream>       // for stringstream
-
 using namespace std;
 
 // Function to display FPS on the screen
@@ -16,7 +15,7 @@ void displayFPS(GLFWwindow* window, double& lastTime, int& frameCount) {
         frameCount = 0;         // Reset frame count for the next second
         lastTime = currentTime; // Reset the last time
 
-        // Display FPS in the window title
+        // Display FPS in the window title 
         stringstream ss;
         ss << "Paulinator.exe - FPS: " << fps;
         glfwSetWindowTitle(window, ss.str().c_str());  // Update window title with FPS

@@ -53,10 +53,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine"
+CMAKE_SOURCE_DIR = C:\Users\Administrator\Documents\Projects\Paulinator
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine"
+CMAKE_BINARY_DIR = C:\Users\Administrator\Documents\Projects\Paulinator
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -174,14 +174,14 @@ CMakeFiles/paulinator.dir/all: lib/glfw/src/CMakeFiles/glfw.dir/all
 CMakeFiles/paulinator.dir/all: lib/glad/CMakeFiles/glad.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\paulinator.dir\build.make CMakeFiles/paulinator.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\paulinator.dir\build.make CMakeFiles/paulinator.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine\CMakeFiles" --progress-num=25,26 "Built target paulinator"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Administrator\Documents\Projects\Paulinator\CMakeFiles --progress-num=25,26 "Built target paulinator"
 .PHONY : CMakeFiles/paulinator.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/paulinator.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine\CMakeFiles" 26
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Administrator\Documents\Projects\Paulinator\CMakeFiles 26
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/paulinator.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Administrator\Documents\Projects\Paulinator\CMakeFiles 0
 .PHONY : CMakeFiles/paulinator.dir/rule
 
 # Convenience name for target.
@@ -205,14 +205,14 @@ CMakeFiles/paulinator.dir/clean:
 lib/glfw/CMakeFiles/uninstall.dir/all:
 	$(MAKE) $(MAKESILENT) -f lib\glfw\CMakeFiles\uninstall.dir\build.make lib/glfw/CMakeFiles/uninstall.dir/depend
 	$(MAKE) $(MAKESILENT) -f lib\glfw\CMakeFiles\uninstall.dir\build.make lib/glfw/CMakeFiles/uninstall.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine\CMakeFiles" --progress-num= "Built target uninstall"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Administrator\Documents\Projects\Paulinator\CMakeFiles --progress-num= "Built target uninstall"
 .PHONY : lib/glfw/CMakeFiles/uninstall.dir/all
 
 # Build rule for subdir invocation for target.
 lib/glfw/CMakeFiles/uninstall.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Administrator\Documents\Projects\Paulinator\CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lib/glfw/CMakeFiles/uninstall.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Administrator\Documents\Projects\Paulinator\CMakeFiles 0
 .PHONY : lib/glfw/CMakeFiles/uninstall.dir/rule
 
 # Convenience name for target.
@@ -236,14 +236,14 @@ lib/glfw/CMakeFiles/uninstall.dir/clean:
 lib/glfw/src/CMakeFiles/glfw.dir/all:
 	$(MAKE) $(MAKESILENT) -f lib\glfw\src\CMakeFiles\glfw.dir\build.make lib/glfw/src/CMakeFiles/glfw.dir/depend
 	$(MAKE) $(MAKESILENT) -f lib\glfw\src\CMakeFiles\glfw.dir\build.make lib/glfw/src/CMakeFiles/glfw.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine\CMakeFiles" --progress-num=3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24 "Built target glfw"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Administrator\Documents\Projects\Paulinator\CMakeFiles --progress-num=3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24 "Built target glfw"
 .PHONY : lib/glfw/src/CMakeFiles/glfw.dir/all
 
 # Build rule for subdir invocation for target.
 lib/glfw/src/CMakeFiles/glfw.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine\CMakeFiles" 22
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Administrator\Documents\Projects\Paulinator\CMakeFiles 22
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lib/glfw/src/CMakeFiles/glfw.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Administrator\Documents\Projects\Paulinator\CMakeFiles 0
 .PHONY : lib/glfw/src/CMakeFiles/glfw.dir/rule
 
 # Convenience name for target.
@@ -267,14 +267,14 @@ lib/glfw/src/CMakeFiles/glfw.dir/clean:
 lib/glfw/src/CMakeFiles/update_mappings.dir/all:
 	$(MAKE) $(MAKESILENT) -f lib\glfw\src\CMakeFiles\update_mappings.dir\build.make lib/glfw/src/CMakeFiles/update_mappings.dir/depend
 	$(MAKE) $(MAKESILENT) -f lib\glfw\src\CMakeFiles\update_mappings.dir\build.make lib/glfw/src/CMakeFiles/update_mappings.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine\CMakeFiles" --progress-num=27 "Built target update_mappings"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Administrator\Documents\Projects\Paulinator\CMakeFiles --progress-num=27 "Built target update_mappings"
 .PHONY : lib/glfw/src/CMakeFiles/update_mappings.dir/all
 
 # Build rule for subdir invocation for target.
 lib/glfw/src/CMakeFiles/update_mappings.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine\CMakeFiles" 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Administrator\Documents\Projects\Paulinator\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lib/glfw/src/CMakeFiles/update_mappings.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Administrator\Documents\Projects\Paulinator\CMakeFiles 0
 .PHONY : lib/glfw/src/CMakeFiles/update_mappings.dir/rule
 
 # Convenience name for target.
@@ -298,14 +298,14 @@ lib/glfw/src/CMakeFiles/update_mappings.dir/clean:
 lib/glad/CMakeFiles/glad.dir/all:
 	$(MAKE) $(MAKESILENT) -f lib\glad\CMakeFiles\glad.dir\build.make lib/glad/CMakeFiles/glad.dir/depend
 	$(MAKE) $(MAKESILENT) -f lib\glad\CMakeFiles\glad.dir\build.make lib/glad/CMakeFiles/glad.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine\CMakeFiles" --progress-num=1,2 "Built target glad"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Administrator\Documents\Projects\Paulinator\CMakeFiles --progress-num=1,2 "Built target glad"
 .PHONY : lib/glad/CMakeFiles/glad.dir/all
 
 # Build rule for subdir invocation for target.
 lib/glad/CMakeFiles/glad.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine\CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Administrator\Documents\Projects\Paulinator\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lib/glad/CMakeFiles/glad.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Administrator\Documents\Projects\Paulinator\CMakeFiles 0
 .PHONY : lib/glad/CMakeFiles/glad.dir/rule
 
 # Convenience name for target.

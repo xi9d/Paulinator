@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/JOEL/OneDrive/Documents/xi9d/projects/xi9d engine
+# Install script for directory: C:/Users/Administrator/Documents/Projects/Paulinator
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,18 +39,18 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/JOEL/OneDrive/Documents/xi9d/projects/xi9d engine/lib/glfw/cmake_install.cmake")
+  include("C:/Users/Administrator/Documents/Projects/Paulinator/lib/glfw/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/JOEL/OneDrive/Documents/xi9d/projects/xi9d engine/lib/glad/cmake_install.cmake")
+  include("C:/Users/Administrator/Documents/Projects/Paulinator/lib/glad/cmake_install.cmake")
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "C:/Users/JOEL/OneDrive/Documents/xi9d/projects/xi9d engine/install_local_manifest.txt"
+  file(WRITE "C:/Users/Administrator/Documents/Projects/Paulinator/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()
 if(CMAKE_INSTALL_COMPONENT)
@@ -66,6 +66,6 @@ else()
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "C:/Users/JOEL/OneDrive/Documents/xi9d/projects/xi9d engine/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "C:/Users/Administrator/Documents/Projects/Paulinator/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

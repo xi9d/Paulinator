@@ -56,10 +56,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine"
+CMAKE_SOURCE_DIR = C:\Users\Administrator\Documents\Projects\Paulinator
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine"
+CMAKE_BINARY_DIR = C:\Users\Administrator\Documents\Projects\Paulinator
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -131,14 +131,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /d C:\Users\JOEL\OneDrive\DOCUME~1\xi9d\projects\XI9DEN~1 && $(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine\CMakeFiles" "C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine\lib\glad\\CMakeFiles\progress.marks"
-	cd /d C:\Users\JOEL\OneDrive\DOCUME~1\xi9d\projects\XI9DEN~1 && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lib/glad/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine\CMakeFiles" 0
+	cd /d C:\Users\Administrator\Documents\Projects\Paulinator && $(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Administrator\Documents\Projects\Paulinator\CMakeFiles C:\Users\Administrator\Documents\Projects\Paulinator\lib\glad\\CMakeFiles\progress.marks
+	cd /d C:\Users\Administrator\Documents\Projects\Paulinator && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lib/glad/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Administrator\Documents\Projects\Paulinator\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d C:\Users\JOEL\OneDrive\DOCUME~1\xi9d\projects\XI9DEN~1 && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lib/glad/clean
+	cd /d C:\Users\Administrator\Documents\Projects\Paulinator && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lib/glad/clean
 .PHONY : clean
 
 # The main clean target
@@ -147,22 +147,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d C:\Users\JOEL\OneDrive\DOCUME~1\xi9d\projects\XI9DEN~1 && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lib/glad/preinstall
+	cd /d C:\Users\Administrator\Documents\Projects\Paulinator && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lib/glad/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d C:\Users\JOEL\OneDrive\DOCUME~1\xi9d\projects\XI9DEN~1 && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lib/glad/preinstall
+	cd /d C:\Users\Administrator\Documents\Projects\Paulinator && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lib/glad/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /d C:\Users\JOEL\OneDrive\DOCUME~1\xi9d\projects\XI9DEN~1 && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d C:\Users\Administrator\Documents\Projects\Paulinator && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 lib/glad/CMakeFiles/glad.dir/rule:
-	cd /d C:\Users\JOEL\OneDrive\DOCUME~1\xi9d\projects\XI9DEN~1 && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lib/glad/CMakeFiles/glad.dir/rule
+	cd /d C:\Users\Administrator\Documents\Projects\Paulinator && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lib/glad/CMakeFiles/glad.dir/rule
 .PHONY : lib/glad/CMakeFiles/glad.dir/rule
 
 # Convenience name for target.
@@ -171,7 +171,7 @@ glad: lib/glad/CMakeFiles/glad.dir/rule
 
 # fast build rule for target.
 glad/fast:
-	cd /d C:\Users\JOEL\OneDrive\DOCUME~1\xi9d\projects\XI9DEN~1 && $(MAKE) $(MAKESILENT) -f lib\glad\CMakeFiles\glad.dir\build.make lib/glad/CMakeFiles/glad.dir/build
+	cd /d C:\Users\Administrator\Documents\Projects\Paulinator && $(MAKE) $(MAKESILENT) -f lib\glad\CMakeFiles\glad.dir\build.make lib/glad/CMakeFiles/glad.dir/build
 .PHONY : glad/fast
 
 src/glad.obj: src/glad.c.obj
@@ -179,7 +179,7 @@ src/glad.obj: src/glad.c.obj
 
 # target to build an object file
 src/glad.c.obj:
-	cd /d C:\Users\JOEL\OneDrive\DOCUME~1\xi9d\projects\XI9DEN~1 && $(MAKE) $(MAKESILENT) -f lib\glad\CMakeFiles\glad.dir\build.make lib/glad/CMakeFiles/glad.dir/src/glad.c.obj
+	cd /d C:\Users\Administrator\Documents\Projects\Paulinator && $(MAKE) $(MAKESILENT) -f lib\glad\CMakeFiles\glad.dir\build.make lib/glad/CMakeFiles/glad.dir/src/glad.c.obj
 .PHONY : src/glad.c.obj
 
 src/glad.i: src/glad.c.i
@@ -187,7 +187,7 @@ src/glad.i: src/glad.c.i
 
 # target to preprocess a source file
 src/glad.c.i:
-	cd /d C:\Users\JOEL\OneDrive\DOCUME~1\xi9d\projects\XI9DEN~1 && $(MAKE) $(MAKESILENT) -f lib\glad\CMakeFiles\glad.dir\build.make lib/glad/CMakeFiles/glad.dir/src/glad.c.i
+	cd /d C:\Users\Administrator\Documents\Projects\Paulinator && $(MAKE) $(MAKESILENT) -f lib\glad\CMakeFiles\glad.dir\build.make lib/glad/CMakeFiles/glad.dir/src/glad.c.i
 .PHONY : src/glad.c.i
 
 src/glad.s: src/glad.c.s
@@ -195,7 +195,7 @@ src/glad.s: src/glad.c.s
 
 # target to generate assembly for a file
 src/glad.c.s:
-	cd /d C:\Users\JOEL\OneDrive\DOCUME~1\xi9d\projects\XI9DEN~1 && $(MAKE) $(MAKESILENT) -f lib\glad\CMakeFiles\glad.dir\build.make lib/glad/CMakeFiles/glad.dir/src/glad.c.s
+	cd /d C:\Users\Administrator\Documents\Projects\Paulinator && $(MAKE) $(MAKESILENT) -f lib\glad\CMakeFiles\glad.dir\build.make lib/glad/CMakeFiles/glad.dir/src/glad.c.s
 .PHONY : src/glad.c.s
 
 # Help Target
@@ -225,6 +225,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /d C:\Users\JOEL\OneDrive\DOCUME~1\xi9d\projects\XI9DEN~1 && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d C:\Users\Administrator\Documents\Projects\Paulinator && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 
