@@ -10,7 +10,7 @@ add_subdirectory(lib/glfw)
 add_subdirectory(lib/glad)   # This will process the CMakeLists.txt inside lib/glad/
 
 # Create the executable for the project
-add_executable(${PROJECT_NAME} src/main.cpp)
+add_executable(${PROJECT_NAME} src/main.cpp "src/Include/Shader.cpp" "src/Include/Shapes.cpp"  "src/Include/Shapes.h"  "src/Include/Shader.h")
 
 # Include directories for GLFW and GLAD
 target_include_directories(${PROJECT_NAME} PUBLIC

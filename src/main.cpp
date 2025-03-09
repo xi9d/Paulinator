@@ -2,6 +2,8 @@
 #include <glad/glad.h>  // for OpenGL graphics API
 #include <GLFW/glfw3.h> // for GLFW window handling
 #include <sstream>       // for stringstream
+#include "Include/Shader.h"
+#include "Include/Shapes.h"
 using namespace std;
 
 // Function to display FPS on the screen
@@ -17,9 +19,15 @@ void displayFPS(GLFWwindow* window, double& lastTime, int& frameCount) {
 
         // Display FPS in the window title 
         stringstream ss;
-        ss << "Tourist " << fps;
+        ss << "Tourist 3 " << fps;
         glfwSetWindowTitle(window, ss.str().c_str());  // Update window title with FPS
     }
+}
+
+// a simple shape displayed on the screen
+void framebuffer_size_callback(GLFWwindow* window, int width, int height) {
+    glViewport(0, 0, width, height);
+
 }
 
 int main() {
@@ -27,24 +35,22 @@ int main() {
 
     // Initialize GLFW
     if (!glfwInit()) {
-        cout << "GLFW initialization failed" << endl;
         return -1;
     }
 
     // Create a windowed mode window and its OpenGL context
-    window = glfwCreateWindow(800, 450, "tourist-engine", nullptr, nullptr);
+    window = glfwCreateWindow(800, 450, "tourist", nullptr, nullptr);
     if (!window) {
-        cout << "Window creation failed" << endl;
         glfwTerminate();
         return -1;
     }
 
     // Make the OpenGL context current
     glfwMakeContextCurrent(window);
+    glfwSetFramebufferSizeCallback(window, framebuffer_size_callback);
 
     // Initialize GLAD
     if (!gladLoadGLLoader((GLADloadproc)glfwGetProcAddress)) {
-        cout << "GLAD initialization failed" << endl;
         glfwTerminate();
         return -1;
     }
@@ -55,21 +61,25 @@ int main() {
     // Variables for FPS calculation
     double lastTime = glfwGetTime();
     int frameCount = 0;
-
+    // create an instance for the shader windows
+    Shader shader("Shaders/basic.vert", "Shaders/basic.frag");
+    Triangle triangle;
     // Main render loop
     while (!glfwWindowShouldClose(window)) {
-        // Poll and handle events
-        glfwPollEvents();
-
+        
         // Clear the screen with a dark gray background
         glClearColor(0.07f, 0.07f, 0.07f, 1.0f);
         glClear(GL_COLOR_BUFFER_BIT);
+
+        shader.use();
+        triangle.draw();
 
         // Display the FPS on the window title
         displayFPS(window, lastTime, frameCount);
 
         // Swap buffers to update the window
         glfwSwapBuffers(window);
+        glfwPollEvents();
     }
 
     // Terminate GLFW when done
