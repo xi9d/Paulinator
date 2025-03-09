@@ -17,7 +17,7 @@ void displayFPS(GLFWwindow* window, double& lastTime, int& frameCount) {
 
         // Display FPS in the window title 
         stringstream ss;
-        ss << "Paulinator.exe - FPS: " << fps;
+        ss << "Tourist " << fps;
         glfwSetWindowTitle(window, ss.str().c_str());  // Update window title with FPS
     }
 }
@@ -32,7 +32,7 @@ int main() {
     }
 
     // Create a windowed mode window and its OpenGL context
-    window = glfwCreateWindow(800, 450, "Paulinator.exe", nullptr, nullptr);
+    window = glfwCreateWindow(800, 450, "tourist-engine", nullptr, nullptr);
     if (!window) {
         cout << "Window creation failed" << endl;
         glfwTerminate();

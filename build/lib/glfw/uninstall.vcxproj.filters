@@ -1,17 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine\build\CMakeFiles\1081f7e27c0d0b6f58a3ea41a69a96c6\uninstall.rule">
+    <CustomBuild Include="C:\Users\V1RUS\Documents\Paulinator\build\CMakeFiles\1a680eb428a5adcb73dc2256aaefc124\uninstall.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine\lib\glfw\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\V1RUS\Documents\Paulinator\lib\glfw\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine\build\lib\glfw\CMakeFiles\uninstall" />
+    <None Include="C:\Users\V1RUS\Documents\Paulinator\build\lib\glfw\CMakeFiles\uninstall" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{6DB5416B-11A2-35D7-9178-F46DC5366695}</UniqueIdentifier>
+      <UniqueIdentifier>{AB6F3C12-3848-3792-98F2-2516D8B22528}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

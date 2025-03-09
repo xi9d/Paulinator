@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.14)
 
 # Define the project name
-project("paulinator")
+project("Tourist")
 
 # Add the GLFW subdirectory (already uses CMake)
 add_subdirectory(lib/glfw)

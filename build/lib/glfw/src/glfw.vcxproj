@@ -1,51 +1,51 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <PreferredToolArchitecture>x86</PreferredToolArchitecture>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
   </PropertyGroup>
   <ItemGroup Label="ProjectConfigurations">
-    <ProjectConfiguration Include="Debug|win32">
+    <ProjectConfiguration Include="Debug|x64">
       <Configuration>Debug</Configuration>
-      <Platform>win32</Platform>
+      <Platform>x64</Platform>
     </ProjectConfiguration>
-    <ProjectConfiguration Include="Release|win32">
+    <ProjectConfiguration Include="Release|x64">
       <Configuration>Release</Configuration>
-      <Platform>win32</Platform>
+      <Platform>x64</Platform>
     </ProjectConfiguration>
-    <ProjectConfiguration Include="MinSizeRel|win32">
+    <ProjectConfiguration Include="MinSizeRel|x64">
       <Configuration>MinSizeRel</Configuration>
-      <Platform>win32</Platform>
+      <Platform>x64</Platform>
     </ProjectConfiguration>
-    <ProjectConfiguration Include="RelWithDebInfo|win32">
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
       <Configuration>RelWithDebInfo</Configuration>
-      <Platform>win32</Platform>
+      <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{944C932C-0CC8-3269-A31E-4F868220C615}</ProjectGuid>
+    <ProjectGuid>{68FB268B-3C79-3347-91E0-1FA791C5B81D}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
-    <Platform>win32</Platform>
+    <Platform>x64</Platform>
     <ProjectName>glfw</ProjectName>
     <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|win32'" Label="Configuration">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
     <CharacterSet>Unicode</CharacterSet>
     <PlatformToolset>v143</PlatformToolset>
   </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|win32'" Label="Configuration">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
     <CharacterSet>Unicode</CharacterSet>
     <PlatformToolset>v143</PlatformToolset>
   </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'" Label="Configuration">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
     <CharacterSet>Unicode</CharacterSet>
     <PlatformToolset>v143</PlatformToolset>
   </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'" Label="Configuration">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
     <CharacterSet>Unicode</CharacterSet>
     <PlatformToolset>v143</PlatformToolset>
@@ -59,37 +59,35 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine\build\lib\glfw\src\Debug\</OutDir>
-    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">glfw.dir\Debug\</IntDir>
-    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">glfw3</TargetName>
-    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|win32'">C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine\build\lib\glfw\src\Release\</OutDir>
-    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|win32'">glfw.dir\Release\</IntDir>
-    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|win32'">glfw3</TargetName>
-    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|win32'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine\build\lib\glfw\src\MinSizeRel\</OutDir>
-    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">glfw.dir\MinSizeRel\</IntDir>
-    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">glfw3</TargetName>
-    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine\build\lib\glfw\src\RelWithDebInfo\</OutDir>
-    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">glfw.dir\RelWithDebInfo\</IntDir>
-    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">glfw3</TargetName>
-    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\V1RUS\Documents\Paulinator\build\lib\glfw\src\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">glfw.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">glfw3</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\V1RUS\Documents\Paulinator\build\lib\glfw\src\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">glfw.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">glfw3</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\V1RUS\Documents\Paulinator\build\lib\glfw\src\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">glfw.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">glfw3</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\V1RUS\Documents\Paulinator\build\lib\glfw\src\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">glfw.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">glfw3</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
   </PropertyGroup>
-  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine\lib\glfw\include;C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine\lib\glfw\src;C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine\build\lib\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\V1RUS\Documents\Paulinator\lib\glfw\include;C:\Users\V1RUS\Documents\Paulinator\lib\glfw\src;C:\Users\V1RUS\Documents\Paulinator\build\lib\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <ExceptionHandling>
       </ExceptionHandling>
       <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
-      <MinimalRebuild></MinimalRebuild>
       <Optimization>Disabled</Optimization>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
-      <SupportJustMyCode></SupportJustMyCode>
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_GLFW_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
@@ -98,10 +96,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;_GLFW_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine\lib\glfw\include;C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine\lib\glfw\src;C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine\build\lib\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\V1RUS\Documents\Paulinator\lib\glfw\include;C:\Users\V1RUS\Documents\Paulinator\lib\glfw\src;C:\Users\V1RUS\Documents\Paulinator\build\lib\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine\lib\glfw\include;C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine\lib\glfw\src;C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine\build\lib\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\V1RUS\Documents\Paulinator\lib\glfw\include;C:\Users\V1RUS\Documents\Paulinator\lib\glfw\src;C:\Users\V1RUS\Documents\Paulinator\build\lib\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -109,22 +107,19 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Lib>
-      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
     </Lib>
   </ItemDefinitionGroup>
-  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|win32'">
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine\lib\glfw\include;C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine\lib\glfw\src;C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine\build\lib\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\V1RUS\Documents\Paulinator\lib\glfw\include;C:\Users\V1RUS\Documents\Paulinator\lib\glfw\src;C:\Users\V1RUS\Documents\Paulinator\build\lib\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
-      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <ExceptionHandling>
       </ExceptionHandling>
       <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
-      <MinimalRebuild></MinimalRebuild>
       <Optimization>MaxSpeed</Optimization>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
-      <SupportJustMyCode></SupportJustMyCode>
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_GLFW_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
@@ -135,10 +130,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_GLFW_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine\lib\glfw\include;C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine\lib\glfw\src;C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine\build\lib\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\V1RUS\Documents\Paulinator\lib\glfw\include;C:\Users\V1RUS\Documents\Paulinator\lib\glfw\src;C:\Users\V1RUS\Documents\Paulinator\build\lib\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine\lib\glfw\include;C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine\lib\glfw\src;C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine\build\lib\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\V1RUS\Documents\Paulinator\lib\glfw\include;C:\Users\V1RUS\Documents\Paulinator\lib\glfw\src;C:\Users\V1RUS\Documents\Paulinator\build\lib\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -146,22 +141,19 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Lib>
-      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
     </Lib>
   </ItemDefinitionGroup>
-  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine\lib\glfw\include;C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine\lib\glfw\src;C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine\build\lib\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\V1RUS\Documents\Paulinator\lib\glfw\include;C:\Users\V1RUS\Documents\Paulinator\lib\glfw\src;C:\Users\V1RUS\Documents\Paulinator\build\lib\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
-      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <ExceptionHandling>
       </ExceptionHandling>
       <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
-      <MinimalRebuild></MinimalRebuild>
       <Optimization>MinSpace</Optimization>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
-      <SupportJustMyCode></SupportJustMyCode>
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_GLFW_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
@@ -172,10 +164,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_GLFW_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine\lib\glfw\include;C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine\lib\glfw\src;C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine\build\lib\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\V1RUS\Documents\Paulinator\lib\glfw\include;C:\Users\V1RUS\Documents\Paulinator\lib\glfw\src;C:\Users\V1RUS\Documents\Paulinator\build\lib\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine\lib\glfw\include;C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine\lib\glfw\src;C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine\build\lib\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\V1RUS\Documents\Paulinator\lib\glfw\include;C:\Users\V1RUS\Documents\Paulinator\lib\glfw\src;C:\Users\V1RUS\Documents\Paulinator\build\lib\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -183,23 +175,20 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Lib>
-      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
     </Lib>
   </ItemDefinitionGroup>
-  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine\lib\glfw\include;C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine\lib\glfw\src;C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine\build\lib\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\V1RUS\Documents\Paulinator\lib\glfw\include;C:\Users\V1RUS\Documents\Paulinator\lib\glfw\src;C:\Users\V1RUS\Documents\Paulinator\build\lib\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
-      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <ExceptionHandling>
       </ExceptionHandling>
       <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
-      <MinimalRebuild></MinimalRebuild>
       <Optimization>MaxSpeed</Optimization>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
-      <SupportJustMyCode></SupportJustMyCode>
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_GLFW_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
@@ -208,10 +197,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_GLFW_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine\lib\glfw\include;C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine\lib\glfw\src;C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine\build\lib\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\V1RUS\Documents\Paulinator\lib\glfw\include;C:\Users\V1RUS\Documents\Paulinator\lib\glfw\src;C:\Users\V1RUS\Documents\Paulinator\build\lib\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine\lib\glfw\include;C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine\lib\glfw\src;C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine\build\lib\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\V1RUS\Documents\Paulinator\lib\glfw\include;C:\Users\V1RUS\Documents\Paulinator\lib\glfw\src;C:\Users\V1RUS\Documents\Paulinator\build\lib\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -219,15 +208,15 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Lib>
-      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
     </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine\lib\glfw\src\CMakeLists.txt">
+    <CustomBuild Include="C:\Users\V1RUS\Documents\Paulinator\lib\glfw\src\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">Building Custom Rule C:/Users/JOEL/OneDrive/Documents/xi9d/projects/xi9d engine/lib/glfw/src/CMakeLists.txt</Message>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/JOEL/OneDrive/Documents/xi9d/projects/xi9d engine" "-BC:/Users/JOEL/OneDrive/Documents/xi9d/projects/xi9d engine/build" --check-stamp-file "C:/Users/JOEL/OneDrive/Documents/xi9d/projects/xi9d engine/build/lib/glfw/src/CMakeFiles/generate.stamp"
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/V1RUS/Documents/Paulinator/lib/glfw/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/V1RUS/Documents/Paulinator -BC:/Users/V1RUS/Documents/Paulinator/build --check-stamp-file C:/Users/V1RUS/Documents/Paulinator/build/lib/glfw/src/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -235,12 +224,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine\lib\glfw\CMake\glfw3.pc.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine\build\lib\glfw\src\CMakeFiles\generate.stamp</Outputs>
-      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|win32'">Building Custom Rule C:/Users/JOEL/OneDrive/Documents/xi9d/projects/xi9d engine/lib/glfw/src/CMakeLists.txt</Message>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release|win32'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/JOEL/OneDrive/Documents/xi9d/projects/xi9d engine" "-BC:/Users/JOEL/OneDrive/Documents/xi9d/projects/xi9d engine/build" --check-stamp-file "C:/Users/JOEL/OneDrive/Documents/xi9d/projects/xi9d engine/build/lib/glfw/src/CMakeFiles/generate.stamp"
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\V1RUS\Documents\Paulinator\lib\glfw\CMake\glfw3.pc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\V1RUS\Documents\Paulinator\build\lib\glfw\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/V1RUS/Documents/Paulinator/lib/glfw/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/V1RUS/Documents/Paulinator -BC:/Users/V1RUS/Documents/Paulinator/build --check-stamp-file C:/Users/V1RUS/Documents/Paulinator/build/lib/glfw/src/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -248,12 +237,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine\lib\glfw\CMake\glfw3.pc.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine\build\lib\glfw\src\CMakeFiles\generate.stamp</Outputs>
-      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">Building Custom Rule C:/Users/JOEL/OneDrive/Documents/xi9d/projects/xi9d engine/lib/glfw/src/CMakeLists.txt</Message>
-      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/JOEL/OneDrive/Documents/xi9d/projects/xi9d engine" "-BC:/Users/JOEL/OneDrive/Documents/xi9d/projects/xi9d engine/build" --check-stamp-file "C:/Users/JOEL/OneDrive/Documents/xi9d/projects/xi9d engine/build/lib/glfw/src/CMakeFiles/generate.stamp"
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\V1RUS\Documents\Paulinator\lib\glfw\CMake\glfw3.pc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\V1RUS\Documents\Paulinator\build\lib\glfw\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/V1RUS/Documents/Paulinator/lib/glfw/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/V1RUS/Documents/Paulinator -BC:/Users/V1RUS/Documents/Paulinator/build --check-stamp-file C:/Users/V1RUS/Documents/Paulinator/build/lib/glfw/src/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -261,12 +250,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine\lib\glfw\CMake\glfw3.pc.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine\build\lib\glfw\src\CMakeFiles\generate.stamp</Outputs>
-      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">Building Custom Rule C:/Users/JOEL/OneDrive/Documents/xi9d/projects/xi9d engine/lib/glfw/src/CMakeLists.txt</Message>
-      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/JOEL/OneDrive/Documents/xi9d/projects/xi9d engine" "-BC:/Users/JOEL/OneDrive/Documents/xi9d/projects/xi9d engine/build" --check-stamp-file "C:/Users/JOEL/OneDrive/Documents/xi9d/projects/xi9d engine/build/lib/glfw/src/CMakeFiles/generate.stamp"
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\V1RUS\Documents\Paulinator\lib\glfw\CMake\glfw3.pc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\V1RUS\Documents\Paulinator\build\lib\glfw\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/V1RUS/Documents/Paulinator/lib/glfw/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/V1RUS/Documents/Paulinator -BC:/Users/V1RUS/Documents/Paulinator/build --check-stamp-file C:/Users/V1RUS/Documents/Paulinator/build/lib/glfw/src/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -274,49 +263,48 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine\lib\glfw\CMake\glfw3.pc.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine\build\lib\glfw\src\CMakeFiles\generate.stamp</Outputs>
-      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">false</LinkObjects>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\V1RUS\Documents\Paulinator\lib\glfw\CMake\glfw3.pc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\V1RUS\Documents\Paulinator\build\lib\glfw\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine\lib\glfw\include\GLFW\glfw3.h" />
-    <ClInclude Include="C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine\lib\glfw\include\GLFW\glfw3native.h" />
-    <ClInclude Include="C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine\lib\glfw\src\internal.h" />
-    <ClInclude Include="C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine\lib\glfw\src\platform.h" />
-    <ClInclude Include="C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine\lib\glfw\src\mappings.h" />
-    <ClCompile Include="C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine\lib\glfw\src\context.c" />
-    <ClCompile Include="C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine\lib\glfw\src\init.c" />
-    <ClCompile Include="C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine\lib\glfw\src\input.c" />
-    <ClCompile Include="C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine\lib\glfw\src\monitor.c" />
-    <ClCompile Include="C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine\lib\glfw\src\platform.c" />
-    <ClCompile Include="C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine\lib\glfw\src\vulkan.c" />
-    <ClCompile Include="C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine\lib\glfw\src\window.c" />
-    <ClCompile Include="C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine\lib\glfw\src\egl_context.c" />
-    <ClCompile Include="C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine\lib\glfw\src\osmesa_context.c" />
-    <ClInclude Include="C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine\lib\glfw\src\null_platform.h" />
-    <ClInclude Include="C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine\lib\glfw\src\null_joystick.h" />
-    <ClCompile Include="C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine\lib\glfw\src\null_init.c" />
-    <ClCompile Include="C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine\lib\glfw\src\null_monitor.c" />
-    <ClCompile Include="C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine\lib\glfw\src\null_window.c" />
-    <ClCompile Include="C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine\lib\glfw\src\null_joystick.c" />
-    <ClInclude Include="C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine\lib\glfw\src\win32_time.h" />
-    <ClInclude Include="C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine\lib\glfw\src\win32_thread.h" />
-    <ClCompile Include="C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine\lib\glfw\src\win32_module.c" />
-    <ClCompile Include="C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine\lib\glfw\src\win32_time.c" />
-    <ClCompile Include="C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine\lib\glfw\src\win32_thread.c" />
-    <ClInclude Include="C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine\lib\glfw\src\win32_platform.h" />
-    <ClInclude Include="C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine\lib\glfw\src\win32_joystick.h" />
-    <ClCompile Include="C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine\lib\glfw\src\win32_init.c" />
-    <ClCompile Include="C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine\lib\glfw\src\win32_joystick.c" />
-    <ClCompile Include="C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine\lib\glfw\src\win32_monitor.c" />
-    <ClCompile Include="C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine\lib\glfw\src\win32_window.c" />
-    <ClCompile Include="C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine\lib\glfw\src\wgl_context.c" />
+    <ClInclude Include="C:\Users\V1RUS\Documents\Paulinator\lib\glfw\include\GLFW\glfw3.h" />
+    <ClInclude Include="C:\Users\V1RUS\Documents\Paulinator\lib\glfw\include\GLFW\glfw3native.h" />
+    <ClInclude Include="C:\Users\V1RUS\Documents\Paulinator\lib\glfw\src\internal.h" />
+    <ClInclude Include="C:\Users\V1RUS\Documents\Paulinator\lib\glfw\src\platform.h" />
+    <ClInclude Include="C:\Users\V1RUS\Documents\Paulinator\lib\glfw\src\mappings.h" />
+    <ClCompile Include="C:\Users\V1RUS\Documents\Paulinator\lib\glfw\src\context.c" />
+    <ClCompile Include="C:\Users\V1RUS\Documents\Paulinator\lib\glfw\src\init.c" />
+    <ClCompile Include="C:\Users\V1RUS\Documents\Paulinator\lib\glfw\src\input.c" />
+    <ClCompile Include="C:\Users\V1RUS\Documents\Paulinator\lib\glfw\src\monitor.c" />
+    <ClCompile Include="C:\Users\V1RUS\Documents\Paulinator\lib\glfw\src\platform.c" />
+    <ClCompile Include="C:\Users\V1RUS\Documents\Paulinator\lib\glfw\src\vulkan.c" />
+    <ClCompile Include="C:\Users\V1RUS\Documents\Paulinator\lib\glfw\src\window.c" />
+    <ClCompile Include="C:\Users\V1RUS\Documents\Paulinator\lib\glfw\src\egl_context.c" />
+    <ClCompile Include="C:\Users\V1RUS\Documents\Paulinator\lib\glfw\src\osmesa_context.c" />
+    <ClInclude Include="C:\Users\V1RUS\Documents\Paulinator\lib\glfw\src\null_platform.h" />
+    <ClInclude Include="C:\Users\V1RUS\Documents\Paulinator\lib\glfw\src\null_joystick.h" />
+    <ClCompile Include="C:\Users\V1RUS\Documents\Paulinator\lib\glfw\src\null_init.c" />
+    <ClCompile Include="C:\Users\V1RUS\Documents\Paulinator\lib\glfw\src\null_monitor.c" />
+    <ClCompile Include="C:\Users\V1RUS\Documents\Paulinator\lib\glfw\src\null_window.c" />
+    <ClCompile Include="C:\Users\V1RUS\Documents\Paulinator\lib\glfw\src\null_joystick.c" />
+    <ClInclude Include="C:\Users\V1RUS\Documents\Paulinator\lib\glfw\src\win32_time.h" />
+    <ClInclude Include="C:\Users\V1RUS\Documents\Paulinator\lib\glfw\src\win32_thread.h" />
+    <ClCompile Include="C:\Users\V1RUS\Documents\Paulinator\lib\glfw\src\win32_module.c" />
+    <ClCompile Include="C:\Users\V1RUS\Documents\Paulinator\lib\glfw\src\win32_time.c" />
+    <ClCompile Include="C:\Users\V1RUS\Documents\Paulinator\lib\glfw\src\win32_thread.c" />
+    <ClInclude Include="C:\Users\V1RUS\Documents\Paulinator\lib\glfw\src\win32_platform.h" />
+    <ClInclude Include="C:\Users\V1RUS\Documents\Paulinator\lib\glfw\src\win32_joystick.h" />
+    <ClCompile Include="C:\Users\V1RUS\Documents\Paulinator\lib\glfw\src\win32_init.c" />
+    <ClCompile Include="C:\Users\V1RUS\Documents\Paulinator\lib\glfw\src\win32_joystick.c" />
+    <ClCompile Include="C:\Users\V1RUS\Documents\Paulinator\lib\glfw\src\win32_monitor.c" />
+    <ClCompile Include="C:\Users\V1RUS\Documents\Paulinator\lib\glfw\src\win32_window.c" />
+    <ClCompile Include="C:\Users\V1RUS\Documents\Paulinator\lib\glfw\src\wgl_context.c" />
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
-    <ProjectReference Include="C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine\build\ZERO_CHECK.vcxproj">
-      <Project>{5A86A186-97F8-3BDE-929B-335BBEC07A4B}</Project>
+    <ProjectReference Include="C:\Users\V1RUS\Documents\Paulinator\build\ZERO_CHECK.vcxproj">
+      <Project>{3A40D5EA-AFAF-3F24-9DB0-A10624E02625}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>

@@ -1,51 +1,51 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <PreferredToolArchitecture>x86</PreferredToolArchitecture>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
   </PropertyGroup>
   <ItemGroup Label="ProjectConfigurations">
-    <ProjectConfiguration Include="Debug|win32">
+    <ProjectConfiguration Include="Debug|x64">
       <Configuration>Debug</Configuration>
-      <Platform>win32</Platform>
+      <Platform>x64</Platform>
     </ProjectConfiguration>
-    <ProjectConfiguration Include="Release|win32">
+    <ProjectConfiguration Include="Release|x64">
       <Configuration>Release</Configuration>
-      <Platform>win32</Platform>
+      <Platform>x64</Platform>
     </ProjectConfiguration>
-    <ProjectConfiguration Include="MinSizeRel|win32">
+    <ProjectConfiguration Include="MinSizeRel|x64">
       <Configuration>MinSizeRel</Configuration>
-      <Platform>win32</Platform>
+      <Platform>x64</Platform>
     </ProjectConfiguration>
-    <ProjectConfiguration Include="RelWithDebInfo|win32">
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
       <Configuration>RelWithDebInfo</Configuration>
-      <Platform>win32</Platform>
+      <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{4CFCBB08-3BC3-38DE-96A4-563F37C1ACFE}</ProjectGuid>
+    <ProjectGuid>{AD252484-49F8-39B7-BB31-0DF6269E402D}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
-    <Platform>win32</Platform>
+    <Platform>x64</Platform>
     <ProjectName>uninstall</ProjectName>
     <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|win32'" Label="Configuration">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>Utility</ConfigurationType>
     <CharacterSet>MultiByte</CharacterSet>
     <PlatformToolset>v143</PlatformToolset>
   </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|win32'" Label="Configuration">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
     <ConfigurationType>Utility</ConfigurationType>
     <CharacterSet>MultiByte</CharacterSet>
     <PlatformToolset>v143</PlatformToolset>
   </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'" Label="Configuration">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
     <ConfigurationType>Utility</ConfigurationType>
     <CharacterSet>MultiByte</CharacterSet>
     <PlatformToolset>v143</PlatformToolset>
   </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'" Label="Configuration">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
     <ConfigurationType>Utility</ConfigurationType>
     <CharacterSet>MultiByte</CharacterSet>
     <PlatformToolset>v143</PlatformToolset>
@@ -59,12 +59,12 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
-    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
-    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
-    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
   </PropertyGroup>
-  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <Midl>
       <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
@@ -74,7 +74,7 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
   </ItemDefinitionGroup>
-  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|win32'">
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <Midl>
       <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
@@ -84,7 +84,7 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
   </ItemDefinitionGroup>
-  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <Midl>
       <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
@@ -94,7 +94,7 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
   </ItemDefinitionGroup>
-  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <Midl>
       <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
@@ -105,11 +105,11 @@
     </Midl>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine\build\CMakeFiles\1081f7e27c0d0b6f58a3ea41a69a96c6\uninstall.rule">
-      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">true</BuildInParallel>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|win32'"></Message>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -P "C:/Users/JOEL/OneDrive/Documents/xi9d/projects/xi9d engine/build/lib/glfw/cmake_uninstall.cmake"
+    <CustomBuild Include="C:\Users\V1RUS\Documents\Paulinator\build\CMakeFiles\1a680eb428a5adcb73dc2256aaefc124\uninstall.rule">
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P C:/Users/V1RUS/Documents/Paulinator/build/lib/glfw/cmake_uninstall.cmake
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -117,14 +117,14 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine\build\lib\glfw\CMakeFiles\uninstall</Outputs>
-      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">false</LinkObjects>
-      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">false</VerifyInputsAndOutputsExist>
-      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release|win32'">true</BuildInParallel>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|win32'"></Message>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release|win32'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -P "C:/Users/JOEL/OneDrive/Documents/xi9d/projects/xi9d engine/build/lib/glfw/cmake_uninstall.cmake"
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\V1RUS\Documents\Paulinator\build\lib\glfw\CMakeFiles\uninstall</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P C:/Users/V1RUS/Documents/Paulinator/build/lib/glfw/cmake_uninstall.cmake
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -132,14 +132,14 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine\build\lib\glfw\CMakeFiles\uninstall</Outputs>
-      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|win32'">false</LinkObjects>
-      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Release|win32'">false</VerifyInputsAndOutputsExist>
-      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">true</BuildInParallel>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'"></Message>
-      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -P "C:/Users/JOEL/OneDrive/Documents/xi9d/projects/xi9d engine/build/lib/glfw/cmake_uninstall.cmake"
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\V1RUS\Documents\Paulinator\build\lib\glfw\CMakeFiles\uninstall</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</VerifyInputsAndOutputsExist>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P C:/Users/V1RUS/Documents/Paulinator/build/lib/glfw/cmake_uninstall.cmake
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -147,14 +147,14 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine\build\lib\glfw\CMakeFiles\uninstall</Outputs>
-      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">false</LinkObjects>
-      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">false</VerifyInputsAndOutputsExist>
-      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">true</BuildInParallel>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'"></Message>
-      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -P "C:/Users/JOEL/OneDrive/Documents/xi9d/projects/xi9d engine/build/lib/glfw/cmake_uninstall.cmake"
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\V1RUS\Documents\Paulinator\build\lib\glfw\CMakeFiles\uninstall</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</VerifyInputsAndOutputsExist>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P C:/Users/V1RUS/Documents/Paulinator/build/lib/glfw/cmake_uninstall.cmake
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -162,18 +162,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine\build\lib\glfw\CMakeFiles\uninstall</Outputs>
-      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">false</LinkObjects>
-      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">false</VerifyInputsAndOutputsExist>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\V1RUS\Documents\Paulinator\build\lib\glfw\CMakeFiles\uninstall</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</VerifyInputsAndOutputsExist>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine\lib\glfw\CMakeLists.txt">
+    <CustomBuild Include="C:\Users\V1RUS\Documents\Paulinator\lib\glfw\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">Building Custom Rule C:/Users/JOEL/OneDrive/Documents/xi9d/projects/xi9d engine/lib/glfw/CMakeLists.txt</Message>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/JOEL/OneDrive/Documents/xi9d/projects/xi9d engine" "-BC:/Users/JOEL/OneDrive/Documents/xi9d/projects/xi9d engine/build" --check-stamp-file "C:/Users/JOEL/OneDrive/Documents/xi9d/projects/xi9d engine/build/lib/glfw/CMakeFiles/generate.stamp"
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/V1RUS/Documents/Paulinator/lib/glfw/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/V1RUS/Documents/Paulinator -BC:/Users/V1RUS/Documents/Paulinator/build --check-stamp-file C:/Users/V1RUS/Documents/Paulinator/build/lib/glfw/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -181,12 +181,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Program Files\CMake\share\cmake-3.31\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine\lib\glfw\CMake\cmake_uninstall.cmake.in;C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine\lib\glfw\CMake\glfw3Config.cmake.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine\build\lib\glfw\CMakeFiles\generate.stamp</Outputs>
-      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|win32'">Building Custom Rule C:/Users/JOEL/OneDrive/Documents/xi9d/projects/xi9d engine/lib/glfw/CMakeLists.txt</Message>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release|win32'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/JOEL/OneDrive/Documents/xi9d/projects/xi9d engine" "-BC:/Users/JOEL/OneDrive/Documents/xi9d/projects/xi9d engine/build" --check-stamp-file "C:/Users/JOEL/OneDrive/Documents/xi9d/projects/xi9d engine/build/lib/glfw/CMakeFiles/generate.stamp"
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CMakeDependentOption.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CheckCSourceCompiles.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CheckIncludeFile.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CheckLibraryExists.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\FindPackageMessage.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\FindThreads.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\GNUInstallDirs.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\V1RUS\Documents\Paulinator\lib\glfw\CMake\cmake_uninstall.cmake.in;C:\Users\V1RUS\Documents\Paulinator\lib\glfw\CMake\glfw3Config.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\V1RUS\Documents\Paulinator\build\lib\glfw\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/V1RUS/Documents/Paulinator/lib/glfw/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/V1RUS/Documents/Paulinator -BC:/Users/V1RUS/Documents/Paulinator/build --check-stamp-file C:/Users/V1RUS/Documents/Paulinator/build/lib/glfw/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -194,12 +194,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">C:\Program Files\CMake\share\cmake-3.31\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine\lib\glfw\CMake\cmake_uninstall.cmake.in;C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine\lib\glfw\CMake\glfw3Config.cmake.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine\build\lib\glfw\CMakeFiles\generate.stamp</Outputs>
-      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">Building Custom Rule C:/Users/JOEL/OneDrive/Documents/xi9d/projects/xi9d engine/lib/glfw/CMakeLists.txt</Message>
-      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/JOEL/OneDrive/Documents/xi9d/projects/xi9d engine" "-BC:/Users/JOEL/OneDrive/Documents/xi9d/projects/xi9d engine/build" --check-stamp-file "C:/Users/JOEL/OneDrive/Documents/xi9d/projects/xi9d engine/build/lib/glfw/CMakeFiles/generate.stamp"
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CMakeDependentOption.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CheckCSourceCompiles.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CheckIncludeFile.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CheckLibraryExists.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\FindPackageMessage.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\FindThreads.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\GNUInstallDirs.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\V1RUS\Documents\Paulinator\lib\glfw\CMake\cmake_uninstall.cmake.in;C:\Users\V1RUS\Documents\Paulinator\lib\glfw\CMake\glfw3Config.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\V1RUS\Documents\Paulinator\build\lib\glfw\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/V1RUS/Documents/Paulinator/lib/glfw/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/V1RUS/Documents/Paulinator -BC:/Users/V1RUS/Documents/Paulinator/build --check-stamp-file C:/Users/V1RUS/Documents/Paulinator/build/lib/glfw/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -207,12 +207,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">C:\Program Files\CMake\share\cmake-3.31\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine\lib\glfw\CMake\cmake_uninstall.cmake.in;C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine\lib\glfw\CMake\glfw3Config.cmake.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine\build\lib\glfw\CMakeFiles\generate.stamp</Outputs>
-      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">Building Custom Rule C:/Users/JOEL/OneDrive/Documents/xi9d/projects/xi9d engine/lib/glfw/CMakeLists.txt</Message>
-      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/JOEL/OneDrive/Documents/xi9d/projects/xi9d engine" "-BC:/Users/JOEL/OneDrive/Documents/xi9d/projects/xi9d engine/build" --check-stamp-file "C:/Users/JOEL/OneDrive/Documents/xi9d/projects/xi9d engine/build/lib/glfw/CMakeFiles/generate.stamp"
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CMakeDependentOption.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CheckCSourceCompiles.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CheckIncludeFile.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CheckLibraryExists.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\FindPackageMessage.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\FindThreads.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\GNUInstallDirs.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\V1RUS\Documents\Paulinator\lib\glfw\CMake\cmake_uninstall.cmake.in;C:\Users\V1RUS\Documents\Paulinator\lib\glfw\CMake\glfw3Config.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\V1RUS\Documents\Paulinator\build\lib\glfw\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/V1RUS/Documents/Paulinator/lib/glfw/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/V1RUS/Documents/Paulinator -BC:/Users/V1RUS/Documents/Paulinator/build --check-stamp-file C:/Users/V1RUS/Documents/Paulinator/build/lib/glfw/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -220,19 +220,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">C:\Program Files\CMake\share\cmake-3.31\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine\lib\glfw\CMake\cmake_uninstall.cmake.in;C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine\lib\glfw\CMake\glfw3Config.cmake.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine\build\lib\glfw\CMakeFiles\generate.stamp</Outputs>
-      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">false</LinkObjects>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CMakeDependentOption.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CheckCSourceCompiles.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CheckIncludeFile.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CheckLibraryExists.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\FindPackageMessage.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\FindThreads.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\GNUInstallDirs.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\V1RUS\Documents\Paulinator\lib\glfw\CMake\cmake_uninstall.cmake.in;C:\Users\V1RUS\Documents\Paulinator\lib\glfw\CMake\glfw3Config.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\V1RUS\Documents\Paulinator\build\lib\glfw\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <None Include="C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine\build\lib\glfw\CMakeFiles\uninstall">
+    <None Include="C:\Users\V1RUS\Documents\Paulinator\build\lib\glfw\CMakeFiles\uninstall">
     </None>
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
-    <ProjectReference Include="C:\Users\JOEL\OneDrive\Documents\xi9d\projects\xi9d engine\build\ZERO_CHECK.vcxproj">
-      <Project>{5A86A186-97F8-3BDE-929B-335BBEC07A4B}</Project>
+    <ProjectReference Include="C:\Users\V1RUS\Documents\Paulinator\build\ZERO_CHECK.vcxproj">
+      <Project>{3A40D5EA-AFAF-3F24-9DB0-A10624E02625}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>

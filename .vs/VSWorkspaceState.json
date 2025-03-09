@@ -1,12 +1,12 @@
 {
+  "OutputFoldersPerTargetSystem": {
+    "Local Machine": [
+      "out\\build\\x64-Debug",
+      "out\\install\\x64-Debug"
+    ]
+  },
   "ExpandedNodes": [
-    "",
-    "\\src",
-    "\\src\\assets",
-    "\\src\\build",
-    "\\src\\scripts",
-    "\\src\\shaders"
+    ""
   ],
-  "SelectedNode": "\\src\\main.cpp",
   "PreviewInSolutionExplorer": false
 }
