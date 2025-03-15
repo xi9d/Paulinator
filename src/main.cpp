@@ -2,8 +2,8 @@
 #include <glad/glad.h>  // for OpenGL graphics API
 #include <GLFW/glfw3.h> // for GLFW window handling
 #include <sstream>       // for stringstream
-#include "Include/Shader.h"
-#include "Include/Shapes.h"
+#include "Shader.h";
+#include "Shapes.h";
 using namespace std;
 
 // Function to display FPS on the screen
@@ -19,7 +19,7 @@ void displayFPS(GLFWwindow* window, double& lastTime, int& frameCount) {
 
         // Display FPS in the window title 
         stringstream ss;
-        ss << "Tourist 3 " << fps;
+        ss << "Tourist " << fps;
         glfwSetWindowTitle(window, ss.str().c_str());  // Update window title with FPS
     }
 }
@@ -56,7 +56,7 @@ int main() {
     }
 
     // Enable vsync
-    glfwSwapInterval(1);
+    glfwSwapInterval(1);    
 
     // Variables for FPS calculation
     double lastTime = glfwGetTime();
