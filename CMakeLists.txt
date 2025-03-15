@@ -17,17 +17,30 @@ add_subdirectory(lib/glad) # Ensure lib/glad has a valid CMakeLists.txt
 set(SOURCES
     src/main.cpp
     "src/Shader.cpp"
+<<<<<<< HEAD
     "src/Triangle.cpp"
  "src/Circle.h" "src/Circle.cpp")
+=======
+    "src/Shapes.cpp"
+)
+>>>>>>> 0e431ed54ce4a2a50e35ccce3ecb9077ab1d0541
 
 # Header files for the project
 set(HEADERS
     "src/Shader.h"
+<<<<<<< HEAD
     "src/Triangle.h"
  "src/Circle.h" "src/Circle.cpp")
 
 # Create the executable for the project
 add_executable(${PROJECT_NAME} ${SOURCES} ${HEADERS} "src/Circle.h" "src/Circle.cpp")
+=======
+    "src/Shapes.h"
+)
+
+# Create the executable for the project
+add_executable(${PROJECT_NAME} ${SOURCES} ${HEADERS})
+>>>>>>> 0e431ed54ce4a2a50e35ccce3ecb9077ab1d0541
 
 # Include directories for GLFW, GLAD, and the project itself
 target_include_directories(${PROJECT_NAME} PUBLIC

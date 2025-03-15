@@ -3,8 +3,12 @@
 #include <GLFW/glfw3.h> // for GLFW window handling
 #include <sstream>       // for stringstream
 #include "Shader.h";
+<<<<<<< HEAD
 #include "Triangle.h";
 #include "Circle.h"
+=======
+#include "Shapes.h";
+>>>>>>> 0e431ed54ce4a2a50e35ccce3ecb9077ab1d0541
 using namespace std;
 
 // Function to display FPS on the screen
@@ -20,7 +24,11 @@ void displayFPS(GLFWwindow* window, double& lastTime, int& frameCount) {
 
         // Display FPS in the window title 
         stringstream ss;
+<<<<<<< HEAD
         ss << "Tourist 3" << fps;
+=======
+        ss << "Tourist " << fps;
+>>>>>>> 0e431ed54ce4a2a50e35ccce3ecb9077ab1d0541
         glfwSetWindowTitle(window, ss.str().c_str());  // Update window title with FPS
     }
 }
