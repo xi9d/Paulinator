@@ -2,8 +2,9 @@
 #include <glad/glad.h>  // for OpenGL graphics API
 #include <GLFW/glfw3.h> // for GLFW window handling
 #include <sstream>       // for stringstream
-#include "Include/Shader.h"
-#include "Include/Shapes.h"
+#include "Shader.h";
+#include "Triangle.h";
+#include "Circle.h"
 using namespace std;
 
 // Function to display FPS on the screen
@@ -19,7 +20,7 @@ void displayFPS(GLFWwindow* window, double& lastTime, int& frameCount) {
 
         // Display FPS in the window title 
         stringstream ss;
-        ss << "Tourist 3 " << fps;
+        ss << "Tourist 3" << fps;
         glfwSetWindowTitle(window, ss.str().c_str());  // Update window title with FPS
     }
 }
@@ -39,7 +40,7 @@ int main() {
     }
 
     // Create a windowed mode window and its OpenGL context
-    window = glfwCreateWindow(800, 450, "tourist", nullptr, nullptr);
+    window = glfwCreateWindow(800, 450, "Tourist", nullptr, nullptr);
     if (!window) {
         glfwTerminate();
         return -1;
@@ -56,7 +57,7 @@ int main() {
     }
 
     // Enable vsync
-    glfwSwapInterval(1);
+    glfwSwapInterval(1);    
 
     // Variables for FPS calculation
     double lastTime = glfwGetTime();
@@ -64,6 +65,7 @@ int main() {
     // create an instance for the shader windows
     Shader shader("Shaders/basic.vert", "Shaders/basic.frag");
     Triangle triangle;
+    Circle circle;
     // Main render loop
     while (!glfwWindowShouldClose(window)) {
         
@@ -73,7 +75,7 @@ int main() {
 
         shader.use();
         triangle.draw();
-
+        circle.draw();
         // Display the FPS on the window title
         displayFPS(window, lastTime, frameCount);
 
