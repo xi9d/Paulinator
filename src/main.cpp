@@ -86,7 +86,7 @@ int main() {
         circle.draw();
         // Display the FPS on the window title
         displayFPS(window, lastTime, frameCount);
-
+        
         // Swap buffers to update the window
         glfwSwapBuffers(window);
         glfwPollEvents();

@@ -6,7 +6,11 @@
     ]
   },
   "ExpandedNodes": [
-    ""
+    "",
+    "\\CMakeFiles",
+    "\\CMakeFiles\\glad.dir",
+    "\\src"
   ],
+  "SelectedNode": "\\CMakeLists.txt",
   "PreviewInSolutionExplorer": false
 }
